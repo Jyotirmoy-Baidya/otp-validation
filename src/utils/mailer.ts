@@ -45,13 +45,12 @@ export const sendEmail = async ({ email, emailType, userId }: any) => {
         //     }
         // });
 
-        const email = 'jyotirmoybaidya57485@gmail.com'
         const pass = "eiyo iguk brin wnlu"
 
         var transport = nodemailer.createTransport({
             service: "gmail",
             auth: {
-                user: email,
+                user: "jyotirmoybaidya57485@gmail.com",
                 pass: pass,
             }
         })
